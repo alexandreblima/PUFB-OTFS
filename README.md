@@ -16,7 +16,7 @@ reported in the *PUFB × OTFS* manuscript.
 ## 2. Package layout (flat, numbered by pipeline order)
 
 ```
-PUFB-OTFS-R12-MATLAB-scripts/
+PUFB-OTFS/
 ├── README.md
 ├── 01_channel_generator/        generate_channel_r20a.m     Physical 2D delay–Doppler channels (EVA/ABID)
 ├── 02_shared_lib/               fir_mallat_r22a.m, r22a_io.m  Mallat FIR bank + I/O & SHA-256 helpers
@@ -35,7 +35,7 @@ are its helpers.
 
 ```matlab
 % 1) Put ALL package code on the path (one line):
-cd PUFB-OTFS-R12-MATLAB-scripts
+cd PUFB-OTFS
 addpath(genpath(pwd));
 
 % 2) Tell the scripts where the project data live:
