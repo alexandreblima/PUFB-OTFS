@@ -1,8 +1,7 @@
-# PUFB–OTFS (R12) — MATLAB Simulation Scripts
+# PUFB–OTFS — MATLAB Simulation Scripts
 
-Code-only package with the **31 MATLAB scripts** that produce the numerical results
-reported in the *PUFB × OTFS* manuscript (revision R12). No data, figures, LaTeX,
-or Python files are included.
+Package with the **31 MATLAB scripts** that produce the numerical results
+reported in the *PUFB × OTFS* manuscript. 
 
 ---
 
